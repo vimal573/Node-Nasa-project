@@ -1,6 +1,5 @@
-const { rejects } = require('assert');
-const { parse } = require('csv-parse');
 const fs = require('fs');
+const { parse } = require('csv-parse');
 const path = require('path');
 
 const habitablePlanet = [];
