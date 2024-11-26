@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = require('./app');
 
-const { loadPlanetsData } = require('./models/planetsmodel');
+const { loadPlanetsData } = require('./models/planets.model');
 
 const PORT = process.env.PORT || 8000;
 
